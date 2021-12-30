@@ -1,0 +1,31 @@
+<html>
+<body>
+    <h3>Titantic Survival Prediction</h3>
+<div>
+  <form action="/predict" method="POST">
+    <label for="Pclass">Passenger Class</label>
+    <select id="Pclass" name="Pclass">
+      <option value="">Select</option>
+      <option value="1">Passenger Class 1</option>
+      <option value="2">Passenger Class 2</option>
+      <option value="3">Passenger Class 3</option>
+    </select>
+    <br/>
+    <br/>
+    <label for="Age">Passenger Age</label>
+    <input type="number" id="Age" name="Age">
+    <br/>
+    <br/>
+    <label for="SibSp">Sibling or Spouse count</label>
+    <input type="number" id="SibSp" name="SibSp">
+    <br>
+    <br>
+    <label for="Fare">Fare</label>
+    <input type="float" id="Fare" name="Fare">
+    <br/>
+    <br/>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
